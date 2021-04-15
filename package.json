@@ -1,0 +1,27 @@
+{
+  "name": "features",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare" : "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniil-Golovin/features.git"
+  },
+  "keywords": [],
+  "author": "Danil Golovin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniil-Golovin/features/issues"
+  },
+  "homepage": "https://github.com/Daniil-Golovin/features#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "files": ["lib/**/*"]
+}
