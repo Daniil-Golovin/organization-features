@@ -1,8 +1,9 @@
 {
-  "name": "features",
-  "version": "1.0.0",
+  "name": "@danil_golovin/organization-features",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare" : "npm run build",
@@ -11,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daniil-Golovin/features.git"
+    "url": "git+https://github.com/Daniil-Golovin/organization-features.git"
   },
   "keywords": [],
   "author": "Danil Golovin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Daniil-Golovin/features/issues"
+    "url": "https://github.com/Daniil-Golovin/organization-features/issues"
   },
-  "homepage": "https://github.com/Daniil-Golovin/features#readme",
+  "homepage": "https://github.com/Daniil-Golovin/organization-features#readme",
   "devDependencies": {
     "typescript": "^4.2.4"
   },
