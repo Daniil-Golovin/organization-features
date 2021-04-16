@@ -9,4 +9,4 @@ export const DefaultFeaturesConfig = {
     [FeatureType.phone_verification]: true,
 };
 
-export const Features = [FeatureType.development, FeatureType.family_members, FeatureType.phone_verification]
+export const OrganizationFeatures = [FeatureType.development, FeatureType.family_members, FeatureType.phone_verification]
